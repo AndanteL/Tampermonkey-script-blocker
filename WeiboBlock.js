@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         HappyWeibo
+// @name         WeiboBlocker
 // @namespace    http://tampermonkey.net/
 // @version      2025-07-17
 // @description  屏蔽微博首页和搜索页含关键词内容
