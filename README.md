@@ -1,17 +1,19 @@
-# HappyWeibo
+# Tampermonkey-script-blocker
 
 ## 简介
 
-**HappyWeibo** 是一个 Tampermonkey 用户脚本，可以自动在微博首页和微博搜索页（如 https://weibo.com 和 https://s.weibo.com）屏蔽含有指定敏感关键词的微博内容卡片，从而让你的微博浏览体验更加清爽、纯净。
+**Tampermonkey-script-blocker** 是一个 Tampermonkey 用户脚本仓库，目前包含的脚本**WeiboBlock**可以自动在微博首页和微博搜索页（如 https://weibo.com 和 https://s.weibo.com）屏蔽含有指定敏感关键词的微博内容卡片，从而让你的微博浏览体验更加清爽、纯净。
 
-## 功能说明
+## WeiboBlock
+
+### 功能说明
 
 - 自动隐藏微博首页和搜索页中，正文包含指定关键词的微博卡片
 - 支持自动屏蔽动态加载的新微博
 - 关键词列表可自行修改（在脚本顶部 `BLOCK_KEYWORDS` 变量中配置）
 - 屏蔽内容在控制台有日志提示
 
-## 屏蔽关键词
+### 屏蔽关键词
 
 默认屏蔽以下关键词（可自行扩展或修改）：
 
